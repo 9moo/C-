@@ -2,21 +2,21 @@
 #include<stdio.h> 
 int main()
 {
-//int a=0;
-//printf("³é¿¨");
+int a=0;
+//printf("æŠ½å¡");
 //while(a<100000)
 //{
-//	printf("Î´³ö%d",a);
+//	printf("æœªå‡º%d",a);
 //	a++;
 // } 
 // if(a>=100000)
-// printf("³ö»õ\n");
-printf("Ñ¡ÔñÄãµÄÈËÎï\n");
-printf("1.ÄÄß¸ 2.ËïÎò¿Õ\n");
-	scanf("%d",&a);
-	if(a==1)
-	printf("»ìÌìç±\n");
+// printf("å‡ºè´§\n");
+printf("é€‰æ‹©ä½ çš„äººç‰©\n");
+printf("1.å“ªå’ 2.å­™æ‚Ÿç©º\n");
+	scanf("%d",&a);//scanf ä»é”®ç›˜è·å–æ•°æ®é€šè¿‡æŒ‡é’ˆèµ‹å€¼ç»™a
+	if(a==1)//ifè¯­å¥çš„ç®€å•æ ¼å¼
+	printf("æ··å¤©ç»«\n");
 	else
-	printf("½ğ¹¿°ô\n");
+	printf("é‡‘ç®æ£’\n");
 	return 0;
 }
