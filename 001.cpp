@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
+//输出数组每个元素
 int main() 
 {
 int arr[10] = {1,2,3,4,5,6,7,8,9,10};
