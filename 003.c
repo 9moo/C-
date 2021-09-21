@@ -6,15 +6,15 @@
 //int main() {
 //	int a = 0;
 //	int b = 0;
-//	printf("ÇëÊäÈëÒª±È½Ï´óĞ¡µÄÁ½¸öÊı\n");
+//	printf("è¯·è¾“å…¥è¦æ¯”è¾ƒå¤§å°çš„ä¸¤ä¸ªæ•°\n");//æ±‚æœ€å¤§å€¼
 //	scanf("%d%d",&a,&b);
 //	if(a>b)
-//	printf("×î´óÖµÊÇ %d\n",a);
+//	printf("æœ€å¤§å€¼æ˜¯ %d\n",a);
 //	else
-//	printf("×î´óÖµÊÇ %d\n",b);
+//	printf("æœ€å¤§å€¼æ˜¯ %d\n",b);
 //	return 0;
 //}
-int Max(int x,int y)//´´½¨Maxº¯Êı 
+int Max(int x,int y)//åˆ›å»ºMaxå‡½æ•° 
 {
 	if(x>y)
 	return x;
@@ -26,9 +26,9 @@ int main()
 int a=0;
 int b=0;
 int m=0;
-	printf("ÇëÊäÈëÒª±È½Ï´óĞ¡µÄÁ½¸öÊı\n");
+	printf("è¯·è¾“å…¥è¦æ¯”è¾ƒå¤§å°çš„ä¸¤ä¸ªæ•°\n");
 	scanf("%d%d",&a,&b);
-	m=Max(a,b);//½«a b ÊäÈëµ½º¯ÊıÖĞ 
-	printf("½Ï´óµÄÊıÎª%d\n",m);//Êä³öm 
+	m=Max(a,b);//å°†a b è¾“å…¥åˆ°å‡½æ•°ä¸­ 
+	printf("è¾ƒå¤§çš„æ•°ä¸º%d\n",m);//è¾“å‡ºm 
 	return 0;
 }
